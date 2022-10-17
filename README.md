@@ -1,1 +1,1 @@
-Official Site Repo of BrainHack Global Toronto 2022
+Official Site Repo of CAN-ACN BrainHack 2021

@@ -67,7 +67,8 @@
 
         .flex-item {
         display:flex;
-        align-items: center;
+        align-items: center;		
+		flex-basis: 33.333333%;
         width: 300px;
 				line-height: 25px;
         margin: 10px;
