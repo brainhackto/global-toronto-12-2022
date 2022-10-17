@@ -1,0 +1,17 @@
+[
+	{
+		"person":"Dr. Derek Beaton", 
+		"job": "Director, Advanced Analytics at Data Science & Advanced Analytics (DSAA), \nSt. Michael’s Hospital, Unity Health Toronto",
+	    "bio": "Derek manages the Advanced Analytics team in DSAA at St. Michael's Hospital. The Advanced Analytics is a one-of-a-kind team of experts across statistics, computer science, machine learning, medical imaging, engineering, and operations research. The Advanced Analytics team works with a wide variety of collaborators to deploy analytics solutions across Unity Health Toronto’s hospitals. Prior to coming to Toronto, Derek received his PhD in Cognition & Neuroscience from University of Texas at Dallas, where he focused on multivariate methods for mixed data (clinical, behavioral, genetic, neuroimaging, etc.). Prior to joining DSAA, Derek was a postdoctoral fellow at the Rotman Research Institute at Baycrest Health Sciences, and he was an Ontario Neurodegenerative Disease Research Institute (ONDRI) scholar where he focused on neuroinformatics and biostatistics."
+	},
+	{
+		"person":"Dr. Rosanne Aleong", 
+		"job": "Director of Research, Innovation, and Translation at Rotman Research Instituete",
+	    "bio": "Dr. Rosanne Aleong manages a research support and services hub as the Director of Research, Innovation, and Translation at Baycrest. She works closely with clinicians, healthcare professionals, and industry to conduct applied and evaluative research, especially for industry-partnered, research and innovation projects. Prior to coming to Toronto, Dr. Aleong received her MSc and PhD in Neurological Sciences from McGill University, where she studied neuroinflammation and body perception in young adults."
+	},
+	{
+		"person":"Dr. Shreejoy Tripathy", 
+		"job": "Independent Scientist at the Centre for Addiction and Mental Health (CAMH)\nAssistant Professor in the Department of Psychiatry at the University of Toronto",
+	    "bio": "Dr. Shreejoy Triphathy's lab aims to develop a multi-scale understanding of brain cell type diversity, bridging genetics and gene expression with cell and circuit physiology. They develop machine learning and statistical methods to help neuroscientists translate information at different levels of organization, like gene expression to neuron electrophysiology. Their long-term goal is to better understand the cellular changes that underlie psychiatric and neurological disorders and to ultimately develop approaches that can help guide tailored treatments for mental health patients."
+	}
+]

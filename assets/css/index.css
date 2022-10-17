@@ -21,16 +21,38 @@
 }
 */
 .logo{
-	flex-basis; 45rem;
+	flex-basis: 45rem;
 	min-width: 45rem;
 	height: auto;
-	align-self:center;
+	align-self:center
 }
 
 .logo-text{
 	align-self:center;
-
 }
+
+.topnav {
+	overflow: hidden;
+	background-color: rgb(250, 250, 250);
+  }
+  
+  .topnav a {
+	float: left;
+	color: #113c75;
+	text-align: center;
+	padding: 5px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .topnav a:hover {
+	background-color: rgb(16, 86, 151);
+	color: rgb(173, 228, 241);
+  }
+
+  .bulletlist {
+	list-style-type: dics;
+   }
 
 .panelists {
 	background: rgb(255,255,255);
@@ -43,38 +65,35 @@
 }
 
 .panelist-box{
-
 	width: 90%;
 	height: 40vh;
 	object-fit: cover;
 	object-position: center;
-
 }
 
 .subcomittee-container {
-           display: -webkit-flex;
-           display: flex;
-           -webkit-flex-direction: row;
-           flex-direction: row;
-           -webkit-align-items: center;
-           align-items: center;
-           flex-wrap: wrap;
-           min-width: 300px;
-           max-width: 1200px;
-	   	 		 justify-content: space-even;
-           background: rgb(255,255,255);
-        }
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: center;
+	align-items: center;
+	flex-wrap: wrap;
+	min-width: 300px;
+	max-width: 1200px;
+	justify-content: space-even;
+	background: rgb(255,255,255);
+}
 
-        .flex-item {
-        display:flex;
-        align-items: center;		
-		flex-basis: 33.333333%;
-        width: 300px;
-				line-height: 25px;
-        margin: 10px;
-        padding: 1px;
-        overflow: hidden;
-        }
+.flex-item {
+	display:flex;
+	align-items: center;		
+	flex-basis: 30%;
+	line-height: 25px;
+	margin: 14px;
+	padding: 5px;
+	overflow: hidden;
+}
 
 .flex-item img{
     flex-grow:0;
@@ -100,17 +119,17 @@
 	width: auto;
 }
 
-.industry-box {
-	flex-basis: 20%;
+.worklife-box {
+	flex-basis: 30%;
+	align-items: left;
 	flex-grow: 0;
-
 }
 
-.science-box {
-	flex-basis: 20%;
+.career-box {
+	flex-basis: 25%;
 	flex-grow: 0;
-
 }
+
 #register-link {
 	font-family: 'Montserrat';
 	font-weight: 1000;
@@ -136,6 +155,8 @@
 
 #reg-link {
 	margin-bottom: 1.5em;
+	justify-content: center;
+	align-items: center;
 }
 
 
@@ -149,44 +170,93 @@
 	height:10vh;
 	margin-top: 3em;
 	margin-bottom: 30vh;
+	font-size: large
 }
 
-#science-person {
+.textera-parent {
+	width:100%;
+	height:20vh;
+	margin-top: 1em;
+	margin-bottom: 40vh;
+	font-size: medium
+}
+
+#worklife-person {
 	transition: 1s color;
 	color: #000000;
 	font-size: x-large;
 	font-weight: bold;
 }
 
-#science-job {
+#worklife-job {
 	transition: 1s color;
 	color: #000000;
 	font-size: x-large;
 	font-style: italic;
 }
 
-#science-bio {
+#worklife-bio {
 	transition: 1s color;
 	color: #000000;
-	font-size: x-large;
+	font-size: large;
 }
 
-#industry-person {
+#career-person {
 	transition: 1s color;
 	color: #000000;
 	font-size: x-large;
 	font-weight: bold;
 }
 
-#industry-job {
+#career-job {
 	transition: 1s color;
 	color: #000000;
 	font-size: x-large;
 	font-style: italic;
 }
 
-#industry-bio {
+#career-bio {
+	transition: 1s color;
+	color: #000000;
+	font-size: large;
+}
+
+#mri-person {
 	transition: 1s color;
 	color: #000000;
 	font-size: x-large;
+	font-weight: bold;
+}
+
+#mri-job {
+	transition: 1s color;
+	color: #000000;
+	font-size: x-large;
+	font-style: italic;
+}
+
+#mri-bio {
+	transition: 1s color;
+	color: #000000;
+	font-size: large;
+}
+
+#era-person {
+	transition: 1s color;
+	color: #000000;
+	font-size: x-large;
+	font-weight: bold;
+}
+
+#era-job {
+	transition: 1s color;
+	color: #000000;
+	font-size: x-large;
+	font-style: italic;
+}
+
+#era-bio {
+	transition: 1s color;
+	color: #000000;
+	font-size: large;
 }
