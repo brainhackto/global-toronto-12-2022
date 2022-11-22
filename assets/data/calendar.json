@@ -1,22 +1,22 @@
 [
 	{
-		"title": "BrainHack Introduction and Welcome",
-		"start": "2022-12-08T08:00:00",
-		"end": "2022-12-08T09:00:00"
-	},
-	{
-		"title": "Project Pitches",
+		"title": "Registration, Breakfast, and ice breaker",
 		"start": "2022-12-08T09:00:00",
-		"end": "2022-12-08T10:30:00"
+		"end": "2022-12-08T09:30:00"
 	},
 	{
-		"title": "Coffee Break",
-		"start": "2022-12-08T10:30:00",
-		"end": "2022-12-08T10:45:00"
+		"title": "BrainHack Introduction and Welcome",
+		"start": "2022-12-08T09:30:00",
+		"end": "2022-12-08T10:00:00"
+	},
+	{
+		"title": "Project and Ask-Me-Anything Pitches",
+		"start": "2022-12-08T10:00:00",
+		"end": "2022-12-08T11:00:00"
 	},
 	{
 		"title": "Open Hacking",
-		"start": "2022-12-08T10:45:00",
+		"start": "2022-12-08T11:00:00",
 		"end": "2022-12-08T12:00:00"
 	},
 	{
@@ -25,23 +25,27 @@
 		"end": "2022-12-08T13:00:00"
 	},
 	{
-		"title": "TBD",
+		"title": "Networking: A Chat with People at Different Stages",
 		"start": "2022-12-08T13:00:00",
-		"end": "2022-12-08T14:45:00"
+		"end": "2022-12-08T14:00:00"
 	},
 	{
+		"title": "Open Hacking",
+		"start": "2022-12-08T14:00:00",
+		"end": "2022-12-08T14:45:00"
+	},{
 		"title": "Coffee Break",
 		"start": "2022-12-08T14:45:00",
 		"end": "2022-12-08T15:00:00"
 	},
 	{
-		"title": "TBD",
+		"title": "Open Hacking",
 		"start": "2022-12-08T15:00:00",
 		"end": "2022-12-08T17:00:00"
 	},
 	{
-		"title": "TBD",
-		"start": "2022-12-09T08:00:00",
+		"title": "Breakfast and Open Hacking",
+		"start": "2022-12-09T09:00:00",
 		"end": "2022-12-09T09:45:00"
 	},
 	{
@@ -50,7 +54,7 @@
 		"end": "2022-12-09T10:00:00"
 	},
 	{
-		"title": "TBD",
+		"title": "Open Hacking",
 		"start": "2022-12-09T10:00:00",
 		"end": "2022-12-09T11:00:00"
 	},
@@ -65,8 +69,13 @@
 		"end": "2022-12-09T14:00:00"
 	},
 	{
-		"title": "TBD",
+		"title": "Open Hacking",
 		"start": "2022-12-09T14:00:00",
+		"end": "2022-12-09T15:30:00"
+	},
+	{
+		"title": "Project Presentation and Wrap-Up",
+		"start": "2022-12-09T15:30:00",
 		"end": "2022-12-09T17:00:00"
 	},
 	{
