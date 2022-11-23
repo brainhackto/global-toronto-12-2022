@@ -305,7 +305,7 @@
 .flex-workshopfullitem {
 	display:flex;
 	align-items: center;		
-	flex-basis: 100%;
+	flex-basis: 30%;
 	line-height: 25px;
 	margin: 14px;
 	padding: 5px;
