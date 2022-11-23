@@ -54,13 +54,13 @@
 	<!-- Script for responsive banner -->
 	<script>
 		function myFunction() {
-   			 var x = document.getElementById("myTopnav");
-    		if (x.className === "topnav") {
-      			x.className += " responsive";
-    		} else {
-      			x.className = "topnav";
-    		}
-  }
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
 	</script>
 
 
@@ -68,7 +68,7 @@
 
 <body>
 
-	<div class="topnav" id = "myTopnav">
+	<div class="topnav" id="myTopnav">
 		<a href="#info">Brainhack Toronto 2022</a>
 		<a href="https://brainhack.org/global2022/">Brainhack Global 2022</a>
 		<a href="https://www.eventbrite.ca/e/brain-hack-global-toronto-2022-tickets-445326522617"><b>Register</b></a>
@@ -80,18 +80,21 @@
 		<a href="#team">Our team</a>
 		<a href="#sponsors">Sponsors</a>
 		<a href="#footer">Contact us</a>
-		<a href="https://github.com/brainhackto/Global-Toronto-12-2022"><i class="fab fa-github"></i></a>
-		<a href="https://twitter.com/brainhackto"><i class="fab fa-twitter"></i></a>
-		<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-	  </div>
+		<a href="https://github.com/brainhackto/Global-Toronto-12-2022"><i class="icon fa-github"></i></a>
+		<a href="https://twitter.com/brainhackto"><i class="icon fa-twitter"></i></a>
+		<a href="javascript:void(0);" class="visible-phone" onclick="myFunction()">&#9776;</a>
+	</div>
 
 	<!-- Header -->
 
 	<div class="header-logo">
 
-		<div align = center><img class="logo" src="./images/BrainHack/1x/coverArt2022@0.5x.png" alt="retro-brain-logo"></div>
-		<div align = center id="register-link"><a href="https://www.eventbrite.ca/e/brain-hack-global-toronto-2022-tickets-445326522617">Register</a></div>
-	
+		<div align=center><img class="logo" src="./images/BrainHack/1x/coverArt2022@0.5x.png" alt="retro-brain-logo">
+		</div>
+		<div align=center id="register-link"><a
+				href="https://www.eventbrite.ca/e/brain-hack-global-toronto-2022-tickets-445326522617">Register</a>
+		</div>
+
 	</div>
 
 	<!-- First -->
@@ -105,19 +108,23 @@
 					relationships, learn from one another, and collaborate on projects related to the neurosciences.
 				</p>
 
-				<p> BrainHack Global Toronto 2022 is part of 
-					<a href="https://brainhack.org/global2022/" target="_blank">BrainHack Global 2022</a>. 
-					This year, BrainHack Global Toronto will be fully hybrid. Participants at BrainHack Global Toronto 2022 will
+				<p> BrainHack Global Toronto 2022 is part of
+					<a href="https://brainhack.org/global2022/" target="_blank">BrainHack Global 2022</a>.
+					This year, BrainHack Global Toronto will be fully hybrid. Participants at BrainHack Global Toronto
+					2022 will
 					have opportunities to work with like-minded scientists through either submitting an organized
-					project or engaging in one. </p>
+					project or engaging in one.
+				</p>
 
 				<p>
-					We also encourage new programmers and students/scientists to participate in our workshop this year. 
-					We pair with Krembil Centre for Neuroinformatic (KCNI) at Centre for Addiction and Mental Health (CAMH) 
-					to provide learning opportunities through the <b>annual one-week KCNI/SCWG Workshops</b> (Nov 28th - Dec 2nd) 
-					to help	kickstart your growth as a neurohacker!
+					We also encourage new programmers and students/scientists to participate in our workshop this year.
+					We pair with Krembil Centre for Neuroinformatic (KCNI) at Centre for Addiction and Mental Health
+					(CAMH)
+					to provide learning opportunities through the <b>annual one-week KCNI/SCWG Workshops</b> (Nov 28th -
+					Dec 2nd)
+					to help kickstart your growth as a neurohacker!
 				</p>
-					
+
 				<p> Join us on <a href="https://discord.gg/HC7fumm79B" target="_blank">Discord</a> to join the community
 					of BrainHack Global Toronto 2022 and start planning your projects! We also have an official
 					<b>#brainhack-toronto</b> channel on <a
@@ -135,8 +142,8 @@
 								<b>Dates:</b>
 							</td>
 							<td align="left">
-								Dec 08-09, 2022 
-							</td>	
+								Dec 08-09, 2022
+							</td>
 						</tr>
 
 						<tr>
@@ -155,7 +162,8 @@
 								<b>Location:</b>
 							</td>
 							<td align="left">
-								The Krembil Centre for Neuroinformatics (12th floor), 250 College St., Toronto, Ontario, M5T 1R8
+								The Krembil Centre for Neuroinformatics (12th floor), 250 College St., Toronto, Ontario,
+								M5T 1R8
 								<br> Hybrid option supported.
 							</td>
 						</tr>
@@ -163,19 +171,23 @@
 							<td align="left">
 								<b>Note:</b>
 							</td>
-							<td align="left">We follow <a href="http://www.brainhack.org/code-of-conduct.html">the code of conduct</a> of BrainHack Global.</th>
+							<td align="left">We follow <a href="http://www.brainhack.org/code-of-conduct.html">the code
+									of conduct</a> of BrainHack Global.</th>
 						</tr>
 					</table>
 				</div>
 
-				<div id="reg-link"><a href="https://www.eventbrite.ca/e/brain-hack-global-toronto-2022-tickets-445326522617"> <b>Register now!</b></a></div>
-				
+				<div id="reg-link"><a
+						href="https://www.eventbrite.ca/e/brain-hack-global-toronto-2022-tickets-445326522617">
+						<b>Register now!</b></a></div>
+
 				<div class="map-responsive">
 
 					<!-- Change z=xx for map zoom-->
-					<iframe src="https://maps.google.com/maps?q=250%20College%20St%2C%20Toronto%2C%20ON%20M5T%201R8&t=&z=16&ie=UTF8&iwloc=&output=embed"
-					    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-				
+					<iframe
+						src="https://maps.google.com/maps?q=250%20College%20St%2C%20Toronto%2C%20ON%20M5T%201R8&t=&z=16&ie=UTF8&iwloc=&output=embed"
+						width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
 				</div>
 			</div>
 		</header>
@@ -251,17 +263,20 @@
 								areas that you've been waiting to have an opportunity to jump on!
 							</li>
 							<!-- No longer relevant, use TrainTracks -->
-							<li class="icon fa-train"> <b> KCNI-SCWG Annual Workshops </b> to help you get up to speed with
-								various programming languages and current practices in open-source and 
+							<li class="icon fa-train"> <b> KCNI-SCWG Annual Workshops </b> to help you get up to speed
+								with
+								various programming languages and current practices in open-source and
 								reproducible neuroimaging analysis.
 							</li>
-							<li> <i class="fas fa-hands-helping"></i> <b> Panel and Lunch-time Discussions </b> are
-								social events focusing on open chatter on topics that are not research specific. 
-								This year, the panel will focus on "Where do the BrainHackers go? Somewhere between academia and industry." 
-								for which we invite previous brainhackers to share their career trajectories that are neither academia 
-								nor fully in industry. 
+							<li> <i class="fas fa-handshake"></i> <b> Panel and Lunch-time Discussions </b> are
+								social events focusing on open chatter on topics that are not research specific.
+								This year, the panel will focus on "Where do the BrainHackers go? Somewhere between
+								academia and industry."
+								for which we invite previous brainhackers to share their career trajectories that are
+								neither academia
+								nor fully in industry.
 							</li>
-							<li><i class="fas fa-comment"></i> <b> Socials </b> will be held during hack nights
+							<li><i class="icon fa-comment"></i> <b> Socials </b> will be held during hack nights
 								to foster community building.
 							</li>
 						</ul>
@@ -271,73 +286,104 @@
 				<div class="row">
 					<h2>Schedule</h2>
 				</div>
-				
+
 				<div id='calendar' style="padding: 0 0 2em 0"></div>
 
 
 				<div>
-					<h4>View in <a href="https://calendar.google.com/calendar/u/0?cid=ZWE2MDg0ZWJmOGUxNWMwMGQyNzliZTkwZTc2ZGNmMTFhMzkyNzVmODc4Mjk0YTM2N2I4ZjdiZDZhMjIzMTVmZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%238E24AA" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"><b>Google Calendar</b></a>
-						or <a href="https://calendar.google.com/calendar/ical/ea6084ebf8e15c00d279be90e76dcf11a39275f878294a367b8f7bd6a22315ff%40group.calendar.google.com/public/basic.ics" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"><b>add it to your calendar</b></a>
+					<h4>View in <a
+							href="https://calendar.google.com/calendar/u/0?cid=ZWE2MDg0ZWJmOGUxNWMwMGQyNzliZTkwZTc2ZGNmMTFhMzkyNzVmODc4Mjk0YTM2N2I4ZjdiZDZhMjIzMTVmZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%238E24AA"
+							style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"><b>Google
+								Calendar</b></a>
+						or <a
+							href="https://calendar.google.com/calendar/ical/ea6084ebf8e15c00d279be90e76dcf11a39275f878294a367b8f7bd6a22315ff%40group.calendar.google.com/public/basic.ics"
+							style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"><b>add it to
+								your calendar</b></a>
 					</h4>
 				</div>
 
-				<div id = "workshop" class="row">
+				<div id="workshop" class="row">
 					<h2>Workshops</h2>
-			
+
 					<p>
-						BrainHack Global Toronto 2022 will work with the Krembil Centre for Neuroinformatic (KCNI) 
-						at The Centre for Addiction and Mental Health (CAMH) and feature a series of workshops hosted over one 
-						week (Nov 28th - Dec 2nd) in order to enhance the computational literacy of neuroscientists across all levels.
-						<b>Free registration</b> (with insitutional e-mail) for <i>each</i> session is available on 
-						<a href="https://www.eventbrite.com/cc/kcni-scwg-workshops-fall-2022-1304789" target="_blank"><b>this website</b></a>.
+						BrainHack Global Toronto 2022 will work with the Krembil Centre for Neuroinformatic (KCNI)
+						at The Centre for Addiction and Mental Health (CAMH) and feature a series of workshops hosted
+						over one
+						week (Nov 28th - Dec 2nd) in order to enhance the computational literacy of neuroscientists
+						across all levels.
+						<b>Free registration</b> (with insitutional e-mail) for <i>each</i> session is available on
+						<a href="https://www.eventbrite.com/cc/kcni-scwg-workshops-fall-2022-1304789"
+							target="_blank"><b>this website</b></a>.
 						Please see below for the complete list and the instructors of each session.
-						The workshops will be fully hybrid mainly via <a href="https://www.webex.com/downloads.html">WebEx client</a> with
-						in person session at the KCNI. 
+						The workshops will be fully hybrid mainly via <a
+							href="https://www.webex.com/downloads.html">WebEx client</a> with
+						in person session at the KCNI.
 					</p>
 					<p>
-						The goal if this workshop series is to provide training that is often often not part of 
+						The goal if this workshop series is to provide training that is often often not part of
 						the core curriculum for biomedical/medical science degrees
-						in the era when our research has become increasingly more computationally-driven. 
+						in the era when our research has become increasingly more computationally-driven.
 						KCNI, in collaboration with the Scientific Computing Workshops at CAMH
-						are focused on building computing skills and fundamentals to help organize study data, 
-						automate repeatable/reproducible analyses, and make use of CAMH computing resources to save time.	
+						are focused on building computing skills and fundamentals to help organize study data,
+						automate repeatable/reproducible analyses, and make use of CAMH computing resources to save
+						time.
 					</p>
-					
-					<div align = "center" class = "12u 12u">
-					<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23B39DDB&ctz=America%2FToronto&mode=WEEK&src=YWFkNTgwZTk0YTE2MzQzNzY4MjFhYzNjOTNjYThlOTYwM2E3NzY1YzNjMmI5M2NmNTM2OGQyYTRlM2Y0ZWNjYUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%238E24AA" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>					
+
+					<div align="center" class="12u 12u">
+						<iframe
+							src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23B39DDB&ctz=America%2FToronto&mode=WEEK&src=YWFkNTgwZTk0YTE2MzQzNzY4MjFhYzNjOTNjYThlOTYwM2E3NzY1YzNjMmI5M2NmNTM2OGQyYTRlM2Y0ZWNjYUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%238E24AA"
+							style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 					</div>
-					
+
 					<br>
-					
+
 					<div>
-						<h3 align = "left"><b><u>Workshops and Instructors</u>:</b></h3>
+						<h3 align="left"><b><u>Workshops and Instructors</u>:</b></h3>
 					</div>
-					
+
 					<div class="workshop-container">
-						<div align = "left" class="8u 12u(narrow)">
-							<h4><a href="https://www.eventbrite.ca/e/introduction-to-python-tickets-445507754687?aff=odcleoeventsincollection"><b>Introduction to Python</b></a></h4>
-							<h4><a href="https://www.eventbrite.ca/e/intermediate-python-tickets-445513562057?aff=odcleoeventsincollection"><b>Intermediate Python</b></a></h4>
-							<h4><a href="https://www.eventbrite.ca/e/introduction-to-linuxbash-tickets-445499580237?aff=odcleoeventsincollection"><b>Introduction to Linux/Bash</b></a></h4>
+						<div align="left" class="8u 12u(narrow)">
+							<h4><a
+									href="https://www.eventbrite.ca/e/introduction-to-python-tickets-445507754687?aff=odcleoeventsincollection"><b>Introduction
+										to Python</b></a></h4>
+							<h4><a
+									href="https://www.eventbrite.ca/e/intermediate-python-tickets-445513562057?aff=odcleoeventsincollection"><b>Intermediate
+										Python</b></a></h4>
+							<h4><a
+									href="https://www.eventbrite.ca/e/introduction-to-linuxbash-tickets-445499580237?aff=odcleoeventsincollection"><b>Introduction
+										to Linux/Bash</b></a></h4>
 						</div>
 						<div class="4u 12u(narrow)">
-							<div  class="flex-workshopitem"><img src="./images/committee/person101.png">
+							<div class="flex-workshopitem"><img src="./images/committee/person101.png">
 								<div class="description-text">
-								<div>Alexander Barton</div>
-								<div><i>Research Methods Specialist, XNAT, CAMH</i></div>
+									<div>Alexander Barton</div>
+									<div><i>Research Methods Specialist, XNAT, CAMH</i></div>
 								</div>
 							</div>
 						</div>
 
-						<div align = "left" class="8u 12u(narrow)">
-							<h4><a href="https://www.eventbrite.ca/e/good-practices-for-working-with-data-in-excel-tickets-445523541907?aff=odcleoeventsincollection"><b>Good practices for working with data in Excel</b></a></h4>
-							<h4><a href="https://www.eventbrite.ca/e/replication-reproducible-research-tickets-445516791717?aff=odcleoeventsincollection"><b>Replication & Reproducible Research</b></a></h4>
-							<h4><a href="https://www.eventbrite.ca/e/introduction-to-r-part-1-tickets-449784977977?aff=odcleoeventsincollection"><b>Introductions to R (Part 1)</b></a></h4>
-							<h4><a href="https://www.eventbrite.ca/e/introduction-to-r-part-2-tickets-449791126367?aff=odcleoeventsincollection"><b>Introductions to R (Part 2)</b></a></h4>
-							<h4><a href="https://www.eventbrite.ca/e/introduction-to-r-part-3-tickets-449793212607?aff=odcleoeventsincollection"><b>Introductions to R (Part 3)</b></a></h4>
-							<h4><a href="https://www.eventbrite.ca/e/reproducible-research-in-spss-tickets-445521746537?aff=odcleoeventsincollection"><b>Reproducible Research in SPSS</b></a></h4>
+						<div align="left" class="8u 12u(narrow)">
+							<h4><a
+									href="https://www.eventbrite.ca/e/good-practices-for-working-with-data-in-excel-tickets-445523541907?aff=odcleoeventsincollection"><b>Good
+										practices for working with data in Excel</b></a></h4>
+							<h4><a
+									href="https://www.eventbrite.ca/e/replication-reproducible-research-tickets-445516791717?aff=odcleoeventsincollection"><b>Replication
+										& Reproducible Research</b></a></h4>
+							<h4><a
+									href="https://www.eventbrite.ca/e/introduction-to-r-part-1-tickets-449784977977?aff=odcleoeventsincollection"><b>Introductions
+										to R (Part 1)</b></a></h4>
+							<h4><a
+									href="https://www.eventbrite.ca/e/introduction-to-r-part-2-tickets-449791126367?aff=odcleoeventsincollection"><b>Introductions
+										to R (Part 2)</b></a></h4>
+							<h4><a
+									href="https://www.eventbrite.ca/e/introduction-to-r-part-3-tickets-449793212607?aff=odcleoeventsincollection"><b>Introductions
+										to R (Part 3)</b></a></h4>
+							<h4><a
+									href="https://www.eventbrite.ca/e/reproducible-research-in-spss-tickets-445521746537?aff=odcleoeventsincollection"><b>Reproducible
+										Research in SPSS</b></a></h4>
 						</div>
 						<div class="4u 12u(narrow)">
-							<div  class="flex-workshopitem"><img src="./images/workshop/marcos.jpg">
+							<div class="flex-workshopitem"><img src="./images/workshop/marcos.jpg">
 								<div class="description-text">
 									<div>Marcos Sanches</div>
 									<div><i>Research Coordinator, Clinical Research, CAMH</i></div>
@@ -345,129 +391,155 @@
 							</div>
 						</div>
 
-						<div align = "left" class="8u 12u(narrow)">
-							<h4><a href="https://www.eventbrite.ca/e/introduction-to-git-and-gitlab-part-1-tickets-449812379937?aff=odcleoeventsincollection"><b>Introduction to Git and GitLab (Part 1)</b></a></h4>
-							<h4><a href="https://www.eventbrite.ca/e/introduction-to-git-and-gitlab-part-2-tickets-449814606597?aff=odcleoeventsincollection"><b>Introduction to Git and GitLab (Part 2)</b></a></h4>
+						<div align="left" class="8u 12u(narrow)">
+							<h4><a
+									href="https://www.eventbrite.ca/e/introduction-to-git-and-gitlab-part-1-tickets-449812379937?aff=odcleoeventsincollection"><b>Introduction
+										to Git and GitLab (Part 1)</b></a></h4>
+							<h4><a
+									href="https://www.eventbrite.ca/e/introduction-to-git-and-gitlab-part-2-tickets-449814606597?aff=odcleoeventsincollection"><b>Introduction
+										to Git and GitLab (Part 2)</b></a></h4>
 						</div>
 						<div class="4u 12u(narrow)">
 							<div class="flex-workshopitem"><img src="./images/workshop/matthew.jpg">
 								<div class="description-text">
-								<div>Matthew Carlucci</div>
-								<div><i>Research Analyst, CAMH</i></div>
+									<div>Matthew Carlucci</div>
+									<div><i>Research Analyst, CAMH</i></div>
 								</div>
 							</div>
 						</div>
 
-						<div align = "left" class="8u 12u(narrow)">
-							<h4><a href="https://www.eventbrite.ca/e/introduction-to-sql-tickets-445527734447?aff=odcleoeventsincollection"><b>Introduction to SQL </b></a></h4>
+						<div align="left" class="8u 12u(narrow)">
+							<h4><a
+									href="https://www.eventbrite.ca/e/introduction-to-sql-tickets-445527734447?aff=odcleoeventsincollection"><b>Introduction
+										to SQL </b></a></h4>
 						</div>
 						<div class="4u 12u(narrow)">
 							<div class="flex-workshopitem"><img src="./images/workshop/adeel.jpg">
 								<div class="description-text">
-								<div>Adeel Ansari</div>
-								<div><i>Knowledge Engineering Lead, CAMH</i></div>
+									<div>Adeel Ansari</div>
+									<div><i>Knowledge Engineering Lead, CAMH</i></div>
 								</div>
 							</div>
 						</div>
 
-						<div align = "left" class="8u 12u(narrow)">
-							<h4><a href="https://www.eventbrite.ca/e/introduction-to-dmri-tickets-445532929987?aff=odcleoeventsincollection"><b>Introduction to dMRI</b></a></h4>
+						<div align="left" class="8u 12u(narrow)">
+							<h4><a
+									href="https://www.eventbrite.ca/e/introduction-to-dmri-tickets-445532929987?aff=odcleoeventsincollection"><b>Introduction
+										to dMRI</b></a></h4>
 						</div>
 						<div class="4u 12u(narrow)">
 							<div class="flex-workshopitem"><img src="./images/committee/Davide.png">
 								<div class="description-text">
-								<div>Dr. Davide Momi</div>
-								<div><i>Postdoctoral Fellow, KCNI, CAMH</i></div>
+									<div>Dr. Davide Momi</div>
+									<div><i>Postdoctoral Fellow, KCNI, CAMH</i></div>
 								</div>
 							</div>
 						</div>
 
-						<div align = "left" class="6u 12u(narrow)">
-							<h4><a href="https://www.eventbrite.ca/e/gwas-quality-control-tickets-445524885927?aff=odcleoeventsincollection"><b>GWAS Quality Control</b></a></h4>
-							<h4><a href="https://www.eventbrite.ca/e/polygenic-risk-score-analysis-tickets-445525959137?aff=odcleoeventsincollection"><b>Polygenic Rish Score Analysis</b></a></h4>
+						<div align="left" class="6u 12u(narrow)">
+							<h4><a
+									href="https://www.eventbrite.ca/e/gwas-quality-control-tickets-445524885927?aff=odcleoeventsincollection"><b>GWAS
+										Quality Control</b></a></h4>
+							<h4><a
+									href="https://www.eventbrite.ca/e/polygenic-risk-score-analysis-tickets-445525959137?aff=odcleoeventsincollection"><b>Polygenic
+										Rish Score Analysis</b></a></h4>
 
 						</div>
 						<div class="6u 12u(narrow)"></div>
 						<div class="flex-workshopfullitem">
 							<img src="./images/workshop/clement.jpg">
 							<div class="description-text">
-							<div>Dr. Clement C. Zai</div>
-							<div><i>Project Scientist, CAMH</i></div>
-							<div><i>Associate Professor, UofT</i></div>
+								<div>Dr. Clement C. Zai</div>
+								<div><i>Project Scientist, CAMH</i></div>
+								<div><i>Associate Professor, UofT</i></div>
 							</div>
+						</div>
+						<div class="flex-workshopfullitem">
 							<img src="./images/workshop/vanessa.jpg">
 							<div class="description-text">
-							<div>Dr. Vanessa Gonçalves</div>
-							<div><i>Independent Scientist, CAMH</i></div>
-							<div><i>Assistent Professor, UofT</i></div>
+								<div>Dr. Vanessa Gonçalves</div>
+								<div><i>Independent Scientist, CAMH</i></div>
+								<div><i>Assistent Professor, UofT</i></div>
 							</div>
+						</div>
+						<div class="flex-workshopfullitem">
 							<img src="./images/committee/person101.png">
 							<div class="description-text">
-							<div>Dr. Arun Tiwari </div>
-							<div><i>Project Scientists, CAMH</i></div>
-							<div><i>Assistent Professor, UofT</i></div>
+								<div>Dr. Arun Tiwari </div>
+								<div><i>Project Scientists, CAMH</i></div>
+								<div><i>Assistent Professor, UofT</i></div>
 							</div>
 						</div>
 
 
-						<div>
-							<h4><a href="https://www.eventbrite.ca/e/introduction-to-mri-with-bids-tickets-445530592997?aff=odcleoeventsincollection"><b>Introduction to MRI with BIDS</b></a></h4>
+						<div align="left" class="6u 12u(narrow)">
+							<h4><a
+									href="https://www.eventbrite.ca/e/introduction-to-mri-with-bids-tickets-445530592997?aff=odcleoeventsincollection"><b>Introduction
+										to MRI with BIDS</b></a></h4>
 						</div>
 						<div class="flex-workshopfullitem">
 							<img src="./images/committee/Ju-Chi.jpg">
 							<div class="description-text">
-							<div>Dr. Ju-Chi Yu</div>
-							<div><i>Postdoctoral Fellow, CAMH</i></div>
+								<div>Dr. Ju-Chi Yu</div>
+								<div><i>Postdoctoral Fellow, CAMH</i></div>
 							</div>
+						</div>
+						<div class="flex-workshopfullitem">
 							<img src="./images/workshop/hajer.jpeg">
 							<div class="description-text">
-							<div>Hajer Nakua</div>
-							<div><i>Graduate Student, CAMH</i></div>
+								<div>Hajer Nakua</div>
+								<div><i>Graduate Student, CAMH</i></div>
 							</div>
 						</div>
 
-						<div>
-							<h4><a href="https://www.eventbrite.ca/e/functional-neuroimaging-analysis-tickets-445535828657?aff=odcleoeventsincollection"><b>Functional Neuroimaging Analysis</b></a></h4>
+						<div align="left" class="6u 12u(narrow)">
+							<h4><a
+									href="https://www.eventbrite.ca/e/functional-neuroimaging-analysis-tickets-445535828657?aff=odcleoeventsincollection"><b>Functional
+										Neuroimaging Analysis</b></a></h4>
 						</div>
 						<div class="flex-workshopfullitem">
-							<div class="flex-workshopitem"><img src="./images/committee/Davide.png">
-								<div class="description-text">
+							<img src="./images/committee/Davide.png">
+							<div class="description-text">
 								<div>Dr. Davide Momi</div>
 								<div><i>Postdoctoral Fellow, KCNI, CAMH</i></div>
-								</div>
-								<img src="./images/committee/thomas.jpg">
-								<div class="description-text">
+							</div>
+						</div>
+						<div class="flex-workshopfullitem">
+							<img src="./images/committee/thomas.jpg">
+							<div class="description-text">
 								<div>Thomas Tan</div>
 								<div><i>Graduate Student, CAMH</i></div>
-								</div>
 							</div>
 						</div>
 
-						<div >
-							<h4><a href="https://www.eventbrite.ca/e/working-with-mne-and-eeg-bids-tickets-449616704667?aff=odcleoeventsincollection"><b>Working with MNE and EEG-BIDS</b></a></h4>
+						<div align="left" class="6u 12u(narrow)">
+							<h4><a
+									href="https://www.eventbrite.ca/e/working-with-mne-and-eeg-bids-tickets-449616704667?aff=odcleoeventsincollection"><b>Working
+										with MNE and EEG-BIDS</b></a></h4>
 						</div>
 						<div class="flex-workshopfullitem">
-							<div class="flex-workshopitem"><img src="./images/committee/Davide.png">
-								<div class="description-text">
+							<img src="./images/committee/Davide.png">
+							<div class="description-text">
 								<div>Dr. Davide Momi</div>
 								<div><i>Postdoctoral Fellow, KCNI, CAMH</i></div>
-								</div>
-								<img src="./images/committee/Minarose.jpg">
-								<div class="description-text">
+							</div>
+						</div>
+						<div class="flex-workshopfullitem">
+							<img src="./images/committee/Minarose.jpg">
+							<div class="description-text">
 								<div>Minarose Ismail</div>
 								<div><i>Graduate Student, SickKids</i></div>
-								</div>
 							</div>
 						</div>
 
 
 
 					</div>
-					
-	
+
+
 				</div>
 
-				<div id = "panel" class="row">
+				<div id="panel" class="row">
 					<h2><a id="panel_career"></a> Panel discussion: </h2>
 				</div>
 				<div>
@@ -500,7 +572,7 @@
 
 
 
-				<div id = "team" class="row">
+				<div id="team" class="row">
 					<h2>Meet Our Team</h2>
 
 				</div>
@@ -511,8 +583,8 @@
 							<div>Erin Dickie</div>
 							<div><i>CAMH, KCNI</i></div>
 							<div>Chair</div>
-							<div><a href="https://github.com/edickie/"><i class="fab fa-github"></i></a>
-								<a href="https://twitter.com/ErinWDickie"><i class="fab fa-twitter"></i></a>
+							<div><a href="https://github.com/edickie/"><i class="icon fa-github"></i></a>
+								<a href="https://twitter.com/ErinWDickie"><i class="icon fa-twitter"></i></a>
 							</div>
 						</div>
 					</div>
@@ -520,8 +592,8 @@
 						<div class="description-text">
 							<div>John Griffiths</div>
 							<div><i>CAMH, KCNI</i></div>
-							<div><a href="https://github.com/JohnGriffiths/"><i class="fab fa-github"></i></a>
-								<a href="https://twitter.com/neurodidact"><i class="fab fa-twitter"></i></a>
+							<div><a href="https://github.com/JohnGriffiths/"><i class="icon fa-github"></i></a>
+								<a href="https://twitter.com/neurodidact"><i class="icon fa-twitter"></i></a>
 							</div>
 						</div>
 					</div>
@@ -529,8 +601,8 @@
 						<div class="description-text">
 							<div>Lindsay Oliver</div>
 							<div><i>CAMH</i></div>
-							<div><a href="https://github.com/loliver4/"><i class="fab fa-github"></i></a>
-								<a href="https://twitter.com/loliver_4"><i class="fab fa-twitter"></i></a>
+							<div><a href="https://github.com/loliver4/"><i class="icon fa-github"></i></a>
+								<a href="https://twitter.com/loliver_4"><i class="icon fa-twitter"></i></a>
 							</div>
 						</div>
 					</div>
@@ -538,8 +610,8 @@
 						<div class="description-text">
 							<div>Iska Moxon-Emre</div>
 							<div><i>CAMH</i></div>
-							<div><a href="https://github.com/imoxonemre/"><i class="fab fa-github"></i></a>
-								<a href="https://twitter.com/IskaMoxonEmre"><i class="fab fa-twitter"></i></a>
+							<div><a href="https://github.com/imoxonemre/"><i class="icon fa-github"></i></a>
+								<a href="https://twitter.com/IskaMoxonEmre"><i class="icon fa-twitter"></i></a>
 							</div>
 						</div>
 					</div>
@@ -547,15 +619,15 @@
 						<div class="description-text">
 							<div>Ju-Chi Yu</div>
 							<div><i>CAMH</i></div>
-							<div><a href="https://github.com/juchiyu/"><i class="fab fa-github"></i></a>
-								<a href="https://twitter.com/juchiyu"><i class="fab fa-twitter"></i></a>
+							<div><a href="https://github.com/juchiyu/"><i class="icon fa-github"></i></a>
+								<a href="https://twitter.com/juchiyu"><i class="icon fa-twitter"></i></a>
 							</div>
 						</div>
 					</div>
 					<div class="flex-item"><img src="./images/committee/person101.png">
 						<div class="description-text">
 							<div>Amin Banihashemi</div>
-							<div><a href="https://github.com/abanihas/"><i class="fab fa-github"></i></a>
+							<div><a href="https://github.com/abanihas/"><i class="icon fa-github"></i></a>
 							</div>
 						</div>
 					</div>
@@ -563,8 +635,8 @@
 						<div class="description-text">
 							<div>Davide Momi</div>
 							<div><i>CAMH, KCNI</i></div>
-							<div><a href="https://github.com/Davi1990/"><i class="fab fa-github"></i></a>
-								<a href="https://twitter.com/DaveMomi"><i class="fab fa-twitter"></i></a>
+							<div><a href="https://github.com/Davi1990/"><i class="icon fa-github"></i></a>
+								<a href="https://twitter.com/DaveMomi"><i class="icon fa-twitter"></i></a>
 							</div>
 						</div>
 					</div>
@@ -572,8 +644,8 @@
 						<div class="description-text">
 							<div>Shreyas Harita</div>
 							<div><i>CAMH, KCNI</i></div>
-							<div><a href="https://github.com/Shreyder93/"><i class="fab fa-github"></i></a>
-								<a href="https://twitter.com/ShreyasHarita"><i class="fab fa-twitter"></i></a>
+							<div><a href="https://github.com/Shreyder93/"><i class="icon fa-github"></i></a>
+								<a href="https://twitter.com/ShreyasHarita"><i class="icon fa-twitter"></i></a>
 							</div>
 						</div>
 					</div>
@@ -581,7 +653,7 @@
 						<div class="description-text">
 							<div>Julia Gallucci</div>
 							<div><i>CAMH</i></div>
-							<div><a href="https://github.com/juliagallucci"><i class="fab fa-github"></i></a>
+							<div><a href="https://github.com/juliagallucci"><i class="icon fa-github"></i></a>
 							</div>
 						</div>
 					</div>
@@ -597,7 +669,7 @@
 						<div class="description-text">
 							<div>Thomas Tan</div>
 							<div><i>CAMH</i></div>
-							<div><a href="https://github.com/ThomasHMAC"><i class="fab fa-github"></i></a>
+							<div><a href="https://github.com/ThomasHMAC"><i class="icon fa-github"></i></a>
 							</div>
 						</div>
 					</div>
@@ -605,8 +677,8 @@
 						<div class="description-text">
 							<div>Anukrati Nigam</div>
 							<div><i>CAMH, KCNI</i></div>
-							<div><a href="https://github.com/anukratinigam"><i class="fab fa-github"></i></a>
-								<a href="https://twitter.com/genius_sis"><i class="fab fa-twitter"></i></a>
+							<div><a href="https://github.com/anukratinigam"><i class="icon fa-github"></i></a>
+								<a href="https://twitter.com/genius_sis"><i class="icon fa-twitter"></i></a>
 							</div>
 						</div>
 					</div>
@@ -621,8 +693,8 @@
 						<div class="description-text">
 							<div>Eman Nishat</div>
 							<div><i>SickKids, CAMH</i></div>
-							<div><a href="https://github.com/eman-nishat"><i class="fab fa-github"></i></a>
-								<a href="https://twitter.com/eman_nishat"><i class="fab fa-twitter"></i></a>
+							<div><a href="https://github.com/eman-nishat"><i class="icon fa-github"></i></a>
+								<a href="https://twitter.com/eman_nishat"><i class="icon fa-twitter"></i></a>
 							</div>
 						</div>
 					</div>
@@ -630,8 +702,8 @@
 						<div class="description-text">
 							<div>Minarose Ismail</div>
 							<div><i>SickKids</i></div>
-							<div><a href="https://github.com/Minarose"><i class="fab fa-github"></i></a>
-								<a href="https://twitter.com/MinaroseIsmail"><i class="fab fa-twitter"></i></a>
+							<div><a href="https://github.com/Minarose"><i class="icon fa-github"></i></a>
+								<a href="https://twitter.com/MinaroseIsmail"><i class="icon fa-twitter"></i></a>
 							</div>
 						</div>
 					</div>
@@ -639,7 +711,7 @@
 						<div class="description-text">
 							<div>Kristen Li</div>
 							<div><i>SickKids</i></div>
-							<div><a href="https://twitter.com/cognitiveLi"><i class="fab fa-twitter"></i></a>
+							<div><a href="https://twitter.com/cognitiveLi"><i class="icon fa-twitter"></i></a>
 							</div>
 						</div>
 					</div>
@@ -985,7 +1057,7 @@
 		});
 	</script>
 
-	
+
 	<!-- Script for writing into divs career-text -->
 	<script>
 		// Get relevant elements
