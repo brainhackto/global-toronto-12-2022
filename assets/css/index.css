@@ -29,6 +29,27 @@
 	align-self:center
 }
 
+@media screen and (max-width: 800px) {
+	.header-logo {
+		background: rgb(255,255,255);
+		background: linear-gradient(rgba(255,255,255,1) 25%, rgba(90,220,250,1) 100%);
+		height: auto;
+		display:flex;
+		overflow: auto;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		/* flex-wrap:wrap; */
+		font-size: 1em;
+		margin-top: 3em;
+	}
+	.logo {
+		display: block;
+		width: 100%;
+		height: auto;
+		align-self:center
+	}
+}
 .logo-text{
 	align-self:center;
 }
