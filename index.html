@@ -51,12 +51,24 @@
 		}
 	</script>
 
+	<!-- Script for responsive banner -->
+	<script>
+		function myFunction() {
+   			 var x = document.getElementById("myTopnav");
+    		if (x.className === "topnav") {
+      			x.className += " responsive";
+    		} else {
+      			x.className = "topnav";
+    		}
+  }
+	</script>
+
 
 </head>
 
 <body>
 
-	<div class="topnav">
+	<div class="topnav" id = "myTopnav">
 		<a href="#info">Brainhack Toronto 2022</a>
 		<a href="https://brainhack.org/global2022/">Brainhack Global 2022</a>
 		<a href="https://www.eventbrite.ca/e/brain-hack-global-toronto-2022-tickets-445326522617"><b>Register</b></a>
@@ -70,7 +82,7 @@
 		<a href="#footer">Contact us</a>
 		<a href="https://github.com/brainhackto/Global-Toronto-12-2022"><i class="fab fa-github"></i></a>
 		<a href="https://twitter.com/brainhackto"><i class="fab fa-twitter"></i></a>
-
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 	  </div>
 
 	<!-- Header -->
