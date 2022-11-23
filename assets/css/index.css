@@ -459,27 +459,27 @@
 		height:50vh;
 		margin-top: 3em;
 		margin-bottom: 50vh;
-		font-size: x-small
+		font-size: small
 	}
 	
 	#career-person {
 		transition: 1s color;
 		color: #000000;
-		font-size: smaller;
+		font-size: medium;
 		font-weight: bold;
 	}
 
 	#career-job {
 		transition: 1s color;
 		color: #000000;
-		font-size: smaller;
+		font-size: medium;
 		font-style: italic;
 	}
 
 	#career-bio {
 		transition: 1s color;
 		color: #000000;
-		font-size: xx-small;
+		font-size: x-small;
 	}
 }
 
