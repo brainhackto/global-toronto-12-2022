@@ -1,6 +1,6 @@
 [
 	{
-		"title": "Registration, Breakfast, and ice breaker",
+		"title": "Registration, Breakfast, and Ice Breaker",
 		"start": "2022-12-08T09:00:00",
 		"end": "2022-12-08T09:30:00"
 	},
@@ -20,18 +20,13 @@
 		"end": "2022-12-08T12:00:00"
 	},
 	{
-		"title": "Lunch Break",
+		"title": "Lunch Break & Networking with People at Different Career Stages",
 		"start": "2022-12-08T12:00:00",
 		"end": "2022-12-08T13:00:00"
 	},
 	{
-		"title": "Networking: A Chat with People at Different Stages",
-		"start": "2022-12-08T13:00:00",
-		"end": "2022-12-08T14:00:00"
-	},
-	{
 		"title": "Open Hacking",
-		"start": "2022-12-08T14:00:00",
+		"start": "2022-12-08T13:00:00",
 		"end": "2022-12-08T14:45:00"
 	},
 	{
@@ -42,10 +37,15 @@
 	{
 		"title": "Open Hacking",
 		"start": "2022-12-08T15:00:00",
+		"end": "2022-12-08T16:00:00"
+	},
+	{
+		"title": "Ask-Me-Anything Hour",
+		"start": "2022-12-08T16:00:00",
 		"end": "2022-12-08T17:00:00"
 	},
 	{
-		"title": "Breakfast and Open Hacking",
+		"title": "Breakfast and Open Hacking (Recommanded Project Set-Up Time)",
 		"start": "2022-12-09T09:00:00",
 		"end": "2022-12-09T09:45:00"
 	},
